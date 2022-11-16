@@ -11,10 +11,27 @@
    <form action="">
     <fieldset>
         <h1 id="signup-h1">Sign Up</h1>
-        <input type="text" id="username" placeholder="enter your name">
-        <input type="email" id="email" placeholder="enter your email">
-        <input type="password" id="password" placeholder="enter password">
-        <input type="password" id="confirm-password" placeholder="confirm password">
+        
+        <div>
+            <span class="error-message-username"></span>
+            <input type="text" id="username" placeholder="enter your name">
+        </div>
+        
+        <div>
+            <span class="error-message-email"></span>
+            <input type="email" id="email" placeholder="enter your email">
+        </div>
+        
+        <div>
+            <span class="error-message-password"></span>
+            <input type="password" id="password" placeholder="enter password">
+        </div>
+        
+        <div>
+            <span class="error-message-confirm-password"></span>
+            <input type="password" id="confirm-password" placeholder="confirm password">
+        </div>
+        
         <button type="button" id="button">Sign Up</button>
     </fieldset>
    </form>
